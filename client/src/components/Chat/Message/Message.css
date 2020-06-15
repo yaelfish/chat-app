@@ -1,0 +1,25 @@
+.message-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 5%;
+  margin-top: 5px;
+}
+
+.sent-text {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  color: var(--grey);
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.admin {
+  color: var(--grey);
+}
+
+
+
+
+
+

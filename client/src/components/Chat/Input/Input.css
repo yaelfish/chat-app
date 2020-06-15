@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.mesagges-form {
+  border-top: 2px solid var(--light-grey);
+  flex-direction: row;
+}
+
+.form-control {
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-control-message {
+  width: 80%;
+}
+
+.error {
+  color: red;
+  padding: 8px 10px;
+}
+
+.input {
+  border: none;
+  color: var(--black);
+  text-align: left;
+  border-radius: 5px;
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+input:focus {
+  outline: none;
+}
+
+.send-button {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: var(--green);
+  padding: 1vh 1vw;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
