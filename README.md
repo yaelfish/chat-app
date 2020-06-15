@@ -1,0 +1,1 @@
+Instructions - To start the development server run npm i and npm start for both client and server folders 
